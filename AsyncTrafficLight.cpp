@@ -41,7 +41,7 @@ AsyncTrafficLight::AsyncTrafficLight(int G1_PIN, int Y1_PIN, int R1_PIN, int G2_
     _currentTime = 0;
 }
 
-void AsyncTrafficLight::start(){
+void AsyncTrafficLight::run(){
     _currentTime = millis();
 
     if (_currentTime - _previousTime >= _DELAY || _previousTime == 0)
