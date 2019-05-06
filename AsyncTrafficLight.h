@@ -10,7 +10,7 @@ public:
         int G2_PIN, int Y2_PIN, int R2_PIN,
         int DELAY);
 
-    void start();
+    void run();
     void stop();
     void reset();
 
