@@ -8,7 +8,7 @@ const int BUTTON_PIN = 2;
 void setup(){}
 
 void loop(){
-  asyncTrafficLight.start();
+  asyncTrafficLight.run();
 
   // code here can be exuceted asynchronous while the ligth are waiting... 
   asyncButton(); 
